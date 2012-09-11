@@ -1,12 +1,12 @@
 pingback_heatmap
 
-名词解释:
+名词解释
 
 	pingback是sogou-ufo团队开发的一个可以获取用户在页面点击[mousedown event]坐标的Javascript工具，坐标原点是页面竖直平分线y=0
 
 	pingback_heatmap基于pingback,heatmap,nodejs,phantomjs和php的再服务器端提前生成热力图的工具，查看效果的时候，只需要打开引用pingback js的页面，引入pingback_heatmap的api javascript，就可以查看不同日期的热力图，页面总点击数，并且可以通过鼠标创建选区获取某个特定区域的点击数
 
-原理：
+原理
 
 	pingback将获取到的用户点击信息以日志形式发送到服务器[pingback_heatmap不包含存储及切日志的逻辑，提供给工具的原始数据须是处理好的文本文件，每行内容，如：pos=x_y pageUrl=http://123.sogou.com]
 	
