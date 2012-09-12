@@ -1,45 +1,45 @@
 <!doctype html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-		<style type="text/css">
-			*{
-				margin:0;
-				padding:0;
-			}
-			.trp{
-				background:transparent;
-				height:1000px;
-			}
-			.trp p{
-				margin:10px 0 0 10px;
-			}
-		</style>
-	</head>
-	<body class="trp">
-		<p>
-		<a href="javascript:void((function(){var n=navigator.userAgent.toLowerCase();ie=n.indexOf('msie')!=-1?1:0;if(document.documentMode)ie=0;charset='utf-8';src='#staticSever#page.show.php';element=document.createElement('script');element.setAttribute('charset',charset);element.setAttribute('src',src);document.body.appendChild(element);})())" onclick="return bookmark(this.href,'pingback热力图')">pingbach热力图</a>
-		</p>
-		<p>
-		1,鼠标右键点击上面的链接，选择右键菜单中的“复制链接地址”，然后手动添加书签：名称填写"pingback热力图"，地址粘帖复制的内容。或者，直接将上面的添加pingback热力图为书签链接拖到浏览器的书签栏。
-		</p>
-		<script>
-			function bookmark(url, title){
-				if (window.sidebar) // firefox
-					window.sidebar.addPanel(title, url, "");
-				else if(window.opera && window.print){ // opera
-					var elem = document.createElement('a');
-					elem.setAttribute('href',url);
-					elem.setAttribute('title',title);
-					elem.setAttribute('rel','sidebar');
-					elem.click();
-				}
-				else if(document.all) // ie
-					window.external.AddFavorite(url, title);
-				else
-					alert('浏览器不支持该方法，请按照说明手动添加');
-				return false;
-			};
-		</script>
-	</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <style type="text/css">
+            *{
+                margin:0;
+                padding:0;
+            }
+            .trp{
+                background:transparent;
+                height:1000px;
+            }
+            .trp p{
+                margin:10px 0 0 10px;
+            }
+        </style>
+    </head>
+    <body class="trp">
+        <p>
+        <a href="javascript:void((function(){var n=navigator.userAgent.toLowerCase();ie=n.indexOf('msie')!=-1?1:0;if(document.documentMode)ie=0;charset='utf-8';src='#staticSever#page.show.php';element=document.createElement('script');element.setAttribute('charset',charset);element.setAttribute('src',src);document.body.appendChild(element);})())" onclick="return bookmark(this.href,'pingback热力图')">pingbach热力图</a>
+        </p>
+        <p>
+        1,鼠标右键点击上面的链接，选择右键菜单中的“复制链接地址”，然后手动添加书签：名称填写"pingback热力图"，地址粘帖复制的内容。或者，直接将上面的添加pingback热力图为书签链接拖到浏览器的书签栏。
+        </p>
+        <script>
+            function bookmark(url, title){
+                if (window.sidebar) // firefox
+                    window.sidebar.addPanel(title, url, "");
+                else if(window.opera && window.print){ // opera
+                    var elem = document.createElement('a');
+                    elem.setAttribute('href',url);
+                    elem.setAttribute('title',title);
+                    elem.setAttribute('rel','sidebar');
+                    elem.click();
+                }
+                else if(document.all) // ie
+                    window.external.AddFavorite(url, title);
+                else
+                    alert('浏览器不支持该方法，请按照说明手动添加');
+                return false;
+            };
+        </script>
+    </body>
 </html>
